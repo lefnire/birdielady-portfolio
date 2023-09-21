@@ -9,6 +9,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useRouteError,
 } from "@remix-run/react";
 
 export const links: LinksFunction = () => [
@@ -34,3 +35,21 @@ export default function App() {
     </html>
   );
 }
+
+// export function ErrorBoundary() {
+//   const error = useRouteError();
+//   console.error(error);
+//   return (
+//     <html>
+//       <head>
+//         <title>Oh no!</title>
+//         <Meta />
+//         <Links />
+//       </head>
+//       <body>
+//         Whoops! An error occurred!
+//         <Scripts />
+//       </body>
+//     </html>
+//   );
+// }
