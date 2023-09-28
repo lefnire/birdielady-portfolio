@@ -8,7 +8,9 @@ export default {
   theme: {
     fontFamily: {
       'display': ['League Spartan'],
+      'heading': ['Arizonia'],
       'body': ['Poppins']
+
     },
     extend: {
       fontFamily: {
