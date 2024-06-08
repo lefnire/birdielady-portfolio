@@ -1,6 +1,17 @@
+# dependencies
 node_modules
 
-/.cache
-/build
-.env
+# sst
+.sst
+.build
+
+# opennext
+.open-next
+
+# misc
+.DS_Store
+
+# local env files
+.env*.local
+
 .idea
