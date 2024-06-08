@@ -15,8 +15,9 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
-      },
+  },
     }
   },
   plugins: [require("daisyui")],
 } satisfies Config
+
